@@ -1,6 +1,6 @@
 // Check if the current URL contains 'facebook.com' or 'linkedin.com'
 const currentURL = window.location.href.toLowerCase();
-if (currentURL.includes('facebook.com') || currentURL.includes('linkedin.com')) || currentURL.includes('https://www.pandora.com/station/')) {
+if (currentURL.includes('facebook.com') || currentURL.includes('linkedin.com')) {
 
   // Prompt the user if they want to run the extension
   const runExtension = confirm('Do you want to run the extension?');
